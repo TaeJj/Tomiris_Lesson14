@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ed020f9af95d148a6830329195b626, type: 3}
   m_Name: IconStorage
   m_EditorClassIdentifier: 
+  elements: []

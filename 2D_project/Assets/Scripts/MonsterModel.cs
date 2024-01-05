@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterModel : MonoBehaviour
+public class MonsterModel
 {
-    public string monsterId;
-    public int healthPoints = 100;
-    public string spriteId;
+    public string MonsterId;
+    public int HealthPoints = 100;
+    public string SpriteId;
 }
     

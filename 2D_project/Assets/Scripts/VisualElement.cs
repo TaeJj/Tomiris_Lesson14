@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using UnityEngine;
 
-
+[Serializable]
 public class VisualElement
 {
-    public string id;
+    public string Id;
     public Sprite sprite;
 
 }
