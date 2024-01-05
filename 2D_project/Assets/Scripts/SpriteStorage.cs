@@ -14,6 +14,7 @@ public class SpriteStorage : ScriptableObject
     {
         elements.FirstOrDefault(x => x.Id == key);
        
-        Debug.LogWarning($"In {GetType()} key " + key + " not found."); return default;
+        Debug.LogWarning($"In {GetType()} key " + key + " not found."); 
+        return default;
     }
 }

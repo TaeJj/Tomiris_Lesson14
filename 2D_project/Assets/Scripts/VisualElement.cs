@@ -10,6 +10,11 @@ public class VisualElement
     public string Id;
     public Sprite sprite;
 
+    public VisualElement(string id, Sprite sprite)
+    {
+        Id = id;
+        this.sprite = sprite;
+    }
 }
 
 
