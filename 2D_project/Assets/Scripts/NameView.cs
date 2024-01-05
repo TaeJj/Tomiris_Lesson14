@@ -7,7 +7,7 @@ public class NameView : MonoBehaviour
 {
     [SerializeField] public Text displayName;
 
-    public void Display(string name)
+    public void Setup(string name)
     {
         displayName.text = name;
     }
