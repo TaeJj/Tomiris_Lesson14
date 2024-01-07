@@ -4,15 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class Mob 
+public class MobDTO
 {
     public string Id;
     public int HealthPoints;
-    
+    public int MaxHealthPoints;
 
-    public Mob(string mobId, int healthPoints)
+    public MobDTO(string id, int healthPoints, int maxHealthPoints)
     {
-        Id = mobId;
+        Id = id;
         HealthPoints = healthPoints;
+        MaxHealthPoints = maxHealthPoints;
     }
 }

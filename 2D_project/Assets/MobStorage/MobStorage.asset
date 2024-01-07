@@ -15,5 +15,16 @@ MonoBehaviour:
   elements:
   - Id: Drake
     HealthPoints: 100
+    MaxHealthPoints: 100
   - Id: Cake
     HealthPoints: 300
+    MaxHealthPoints: 300
+  - Id: Jim
+    HealthPoints: 500
+    MaxHealthPoints: 500
+  - Id: Phil
+    HealthPoints: 700
+    MaxHealthPoints: 700
+  - Id: Andrew
+    HealthPoints: 1000
+    MaxHealthPoints: 1000

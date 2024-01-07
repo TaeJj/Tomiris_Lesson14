@@ -10,11 +10,9 @@ public class SpriteStorage : ScriptableObject
 {
     [SerializeField] List<VisualElement> elements;
 
-    public Sprite GetVisual(string key)
+    public Sprite GetImage(string key)
     {
-        elements.FirstOrDefault(x => x.Id == key);
+        return elements.FirstOrDefault(x => x.Id == key).sprite;
        
-        Debug.LogWarning($"In {GetType()} key " + key + " not found."); 
-        return default;
     }
 }
